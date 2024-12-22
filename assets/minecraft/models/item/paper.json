@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 1}, "model": "deck_of_textures:card_knife"},
+    {"predicate": {"custom_model_data": 2}, "model": "deck_of_textures:card_mace"},
+    {"predicate": {"custom_model_data": 3}, "model": "deck_of_textures:card_anvil"},
+    {"predicate": {"custom_model_data": 4}, "model": "deck_of_textures:card_scalpel"},
+    {"predicate": {"custom_model_data": 5}, "model": "deck_of_textures:card_fire"},
+    {"predicate": {"custom_model_data": 6}, "model": "deck_of_textures:card_frost"},
+    {"predicate": {"custom_model_data": 7}, "model": "deck_of_textures:card_mushroom"},
+    {"predicate": {"custom_model_data": 8}, "model": "deck_of_textures:card_inferno"},
+    {"predicate": {"custom_model_data": 9}, "model": "deck_of_textures:card_ice_cream"},
+    {"predicate": {"custom_model_data": 10}, "model": "deck_of_textures:card_pepper"},
+    {"predicate": {"custom_model_data": 11}, "model": "deck_of_textures:card_chips"},
+    {"predicate": {"custom_model_data": 12}, "model": "deck_of_textures:card_delivery"},
+    {"predicate": {"custom_model_data": 13}, "model": "deck_of_textures:card_log"},
+    {"predicate": {"custom_model_data": 14}, "model": "deck_of_textures:card_shovel"},
+    {"predicate": {"custom_model_data": 15}, "model": "deck_of_textures:card_campfire"},
+    {"predicate": {"custom_model_data": 16}, "model": "deck_of_textures:card_walnut"},
+    {"predicate": {"custom_model_data": 17}, "model": "deck_of_textures:card_stake"},
+    {"predicate": {"custom_model_data": 18}, "model": "deck_of_textures:card_fountain"},
+    {"predicate": {"custom_model_data": 19}, "model": "deck_of_textures:card_salad"},
+    {"predicate": {"custom_model_data": 20}, "model": "deck_of_textures:card_die_hard"},
+    {"predicate": {"custom_model_data": 21}, "model": "deck_of_textures:card_delivery_hell"},
+    {"predicate": {"custom_model_data": 22}, "model": "deck_of_textures:card_mirror"},
+    {"predicate": {"custom_model_data": 23}, "model": "deck_of_textures:card_icebreaker"},
+    {"predicate": {"custom_model_data": 24}, "model": "deck_of_textures:card_water"},
+    {"predicate": {"custom_model_data": 25}, "model": "deck_of_textures:card_steal"},
+    {"predicate": {"custom_model_data": 26}, "model": "deck_of_textures:card_match"},
+    {"predicate": {"custom_model_data": 27}, "model": "deck_of_textures:card_dream"},
+    {"predicate": {"custom_model_data": 28}, "model": "deck_of_textures:card_molten_armor"},
+    {"predicate": {"custom_model_data": 29}, "model": "deck_of_textures:card_rusty_nails"},
+    {"predicate": {"custom_model_data": 30}, "model": "deck_of_textures:card_candle"},
+    {"predicate": {"custom_model_data": 31}, "model": "deck_of_textures:card_mammoth"},
+    {"predicate": {"custom_model_data": 32}, "model": "deck_of_textures:card_lemon"},
+    {"predicate": {"custom_model_data": 33}, "model": "deck_of_textures:card_hemerythrine"},
+    {"predicate": {"custom_model_data": 34}, "model": "deck_of_textures:card_catalyst"}
+  ]
+}

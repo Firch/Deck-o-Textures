@@ -1,0 +1,22 @@
+{
+    "providers": [
+        {
+         "type": "bitmap",
+         "file": "deck_of_textures:icons/effects.png",
+         "ascent": 8,
+         "height": 9,
+         "chars": [
+            "\u20F1\u20F2\u20F3\u20F4\u20F5\u20F6\u20F7\u20F8"
+            ]
+        },
+        {
+        "type": "bitmap",
+        "file": "deck_of_textures:icons/stats.png",
+        "ascent": 8,
+        "height": 9,
+        "chars": [
+            "\u20F9"
+            ]
+        }
+    ]
+}
