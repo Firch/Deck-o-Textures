@@ -19,6 +19,7 @@ out vec4 fragColor;
 void main() {
     float bigCard = 204.0/255.0;
     float smallCard = 178.0/255.0;
+    float changeDistance = 200.0;
 
     vec4 color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;
     if (color.a < 0.1) {
@@ -26,7 +27,7 @@ void main() {
     }
     float setValue = bigCard;
     float discardValue = smallCard;
-    if (vertexDistance > 10.0) {
+    if (vertexDistance > changeDistance) {
         setValue = smallCard;
         discardValue = bigCard;
     }
